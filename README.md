@@ -84,8 +84,9 @@ python main.py <algorithm> <test_scene>
 - Scene: path to the scene folder
 
 **Example:** 
+https://drive.google.com/file/d/1jxA1HZtDkO7A4wOmMJEJjRGnC5O4-pH5/view?usp=sharing
 ```bash
-python main.py octree example-scenes-cg25/living-room
+python main.py octree scenes\armadillo
 ```
 
-*The output `scene.bmp` will be generated in the scene folder. No frontend is provided (AI can implement it efficiently). I hate CMake, using Python instead. On Windows, you may compile with MSVC; you need to replace `__builtin_clz` with `__lzcnt`.
+*The output `scene.bmp` will be generated in the scene folder. No frontend is provided (AI can implement it efficiently). <br/>I hate CMake, using Python instead. On Windows, you may compile with MSVC; you need to replace `__builtin_clz` with `__lzcnt`.
